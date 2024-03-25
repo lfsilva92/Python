@@ -1,0 +1,16 @@
+# Escreva um programa que leia um valor em metros e o exiba convertido em centímetros e milímetros.
+m = float(input('Uma distância em metros: '))
+km = (float(m) / 1000)
+hm = (float(m) / 100)
+dam = (float(m) / 10)
+dm = int(float(m) * 10)
+cm = int(float(m) * 100)
+mm = int(float(m) * 1000)
+
+print(f'A medida de {m}m corresponde a: ')
+print(f'{km}km')
+print(f'{hm}hm')
+print(f'{dam}dam')
+print(f'{dm}dm')
+print(f'{cm}cm')
+print(f'{mm}mm')
